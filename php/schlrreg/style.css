@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    align-items:center;
+    width: 500px;
+    height: 500px;
+    top: -100px;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col input,.contact-col text{
+    width: 350px;
+    padding: 15px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    outline: 1px solid black;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.contact-col input{
+    align-items: center;
+}
+.hero-btn{
+    color: #f44336;
+    border: 1px solid #00bef0;
+    padding: 30px 300px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 9px;
+}
